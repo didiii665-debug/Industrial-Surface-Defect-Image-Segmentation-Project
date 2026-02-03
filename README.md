@@ -50,13 +50,12 @@ Rather than aiming solely to maximize benchmark metrics, the emphasis is placed 
 
 ```
 .
-├── train.py / notebook # Training and evaluation pipeline
-├── model.py # Configurable U-Net architecture
-├── dataset.py # Synthetic data generation and Dataset definition
-├── losses.py # BCE / Dice / Focal loss functions
+├── train_unet_synth_metal.py # All-in-one training pipeline (data synth + U-Net + training + visualization)
 ├── outputs_synth_metal/
-│ └── viz_samples/ # Visualization results
-├── README.md # Project documentation
+│ └── viz_samples/ # Saved visualization results (image / gt / pred)
+├── .gitignore
+├── requirements.txt
+└── README.md
 ```
 
 > 💬 **Note**: The actual file structure may vary depending on the implementation.
@@ -72,7 +71,7 @@ Rather than aiming solely to maximize benchmark metrics, the emphasis is placed 
 
 ### Run Training
 ```bash
-python train.py
+train_unet_synth_metal.py
 
 Alternatively, the notebook version can be executed on **Google Colab**.
 ```
