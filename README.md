@@ -9,6 +9,10 @@
 This project implements a **U-Net–based image segmentation pipeline** using synthetic metal texture images with various types of surface defects, including scratches, cracks, and pits.  
 Rather than aiming solely to maximize benchmark metrics, the emphasis is placed on **model design choices and engineering trade-offs** that are commonly encountered in industrial applications.
 
+## Project Showcase
+<img width="859" height="1030" alt="image" src="https://github.com/user-attachments/assets/d9b70f01-b504-451f-a8fb-5a5e735d6dd5" />
+
+
 ## 🔧 Key Features
 
 ### Synthetic Metal Texture Generation
